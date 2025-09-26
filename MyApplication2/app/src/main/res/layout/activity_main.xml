@@ -165,17 +165,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.939" />
 
-    <DatePicker
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:datePickerMode="calendar"
+    <CalendarView
+        android:id="@+id/calendar"
+        android:layout_width="157dp"
+        android:layout_height="252dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.437" />
 
     <TextView
-        android:id="@+id/birthdateText"
+        android:id="@+id/edit_birthdate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Input Birthdate"
@@ -183,24 +185,10 @@
         android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.678"
+        app:layout_constraintHorizontal_bias="0.883"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.193" />
-
-    <EditText
-        android:id="@+id/edit_birthdate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="8"
-        android:hint="MM-DD-YYYY"
-        android:inputType="date"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.818"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.265" />
+        app:layout_constraintVertical_bias="0.257" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
