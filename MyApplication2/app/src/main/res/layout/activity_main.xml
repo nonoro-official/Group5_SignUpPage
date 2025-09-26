@@ -167,8 +167,8 @@
 
     <CalendarView
         android:id="@+id/calendar"
-        android:layout_width="234dp"
-        android:layout_height="326dp"
+        android:layout_width="157dp"
+        android:layout_height="252dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.945"
@@ -185,10 +185,10 @@
         android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.678"
+        app:layout_constraintHorizontal_bias="0.883"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.193" />
+        app:layout_constraintVertical_bias="0.257" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
